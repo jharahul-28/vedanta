@@ -1,0 +1,38 @@
+.documents{
+    font-size: 22px;
+}
+
+.documents h3{
+    text-align: center;
+    font-size: 28px;
+}
+
+.rowDocument{
+    background-color: #711628;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.document{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    padding-left: 10vw;
+}
+
+.document p{
+    padding-left: 20px;
+}
+
+.document p:nth-child(3){
+    height: 100%;
+}
+
+#dd1,#dd3{
+    border-right: 1px solid white;
+}
+
+#dd1,#dd2{
+    border-bottom: 1px solid white;
+}

@@ -1,0 +1,19 @@
+.navContainer{
+    background-color: #711628;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.navContainer h2{
+    margin-left: 20px;
+}
+
+.navElements ul{
+    list-style: none;
+    display: flex;
+}
+
+.navElements ul li {
+    padding: 10px;
+}

@@ -1,0 +1,40 @@
+.heading{
+    text-align: center;
+    font-size: 28px;
+}
+
+.newDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    font-size: large;
+}
+
+.inputForm{
+    padding: 2rem 3rem;
+    margin-top: 1rem;
+    background-color: #711628;
+    width: 50%;
+    border-radius: 20px;
+    color: white;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+form button{
+    font-size: large;
+    font-weight: 400;
+    background-color: #711628;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+}

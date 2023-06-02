@@ -1,0 +1,57 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5rem 3rem;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
+
+.driverDesc {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cbcbcb, #f1f1f1);
+    box-shadow: 25px 25px 53px #a7a7a7, -25px -25px 53px #ffffff;
+    width: 50%;
+    font-size: larger;
+}
+
+.individualDesc {
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.driverDesc .individualDesc:nth-child(1) {
+    margin-top: 1rem;
+}
+
+.individualDesc p{
+    padding-left: 1rem;
+    margin-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+#iDesc2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#iDesc2 div {
+    display: flex;
+    flex-direction: row;
+}
