@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './Landing.css';
 import i1 from '../image/Coach-Bus-mockup-04 - Copy.png';
-import i2 from '../image/istockphoto-1294611530-170667a-removebg-preview.png';
+// import i2 from '../image/istockphoto-1294611530-170667a-removebg-preview.png';
 import i3 from '../image/vehicle-QR-code-stickers.jpg';
 import i4 from '../image/png-transparent-driver-s-license-computer-icons-driving-driving-text-rectangle-car-removebg-preview.png'
 import i5 from '../image/1ba0d66413b77df2cf0b48a5fa1c7e3d-removebg-preview.png';
@@ -71,7 +71,7 @@ const Landing = () => {
                     </div>
 
                     <div class="right">
-                        <img src={i1} />
+                         <img src={i1} alt='Not loaded'/>
                         {/* <img src={i2} /> */}
                     </div>
                 </div>
@@ -84,7 +84,7 @@ const Landing = () => {
             <div class="container">
                 <div class="about">
                     <div class="about-image">
-                        <img src={i3} />
+                        <img alt='Not loaded' src={i3} />
                     </div>
                     <div class="about-content">
                         <h2>Deatils through QR scanning</h2>
@@ -102,19 +102,19 @@ const Landing = () => {
 
             <div class="content-box">
                 <div class="card">
-                    <img src={i4} />
+                    <img alt='Not loaded' src={i4} />
                     <h2>Document Check</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nesciunt molestias accusantium aut perferendis placeat nulla laudantium, iusto nam fugiat!</p>
                 </div>
 
                 <div class="card">
-                    <img src={i5} />
+                    <img alt='Not loaded' src={i5} />
                     <h2>Driver details</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nesciunt molestias accusantium aut perferendis placeat nulla laudantium, iusto nam fugiat!</p>
                 </div>
 
                 <div class="card">
-                    <img src={i6} />
+                    <img alt='Not loaded' src={i6} />
                     <h2>Vechile Checklist</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nesciunt molestias accusantium aut perferendis placeat nulla laudantium, iusto nam fugiat!</p>
                 </div>
