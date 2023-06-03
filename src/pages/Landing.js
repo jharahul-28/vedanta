@@ -41,7 +41,7 @@ const Landing = () => {
     return (
         <>
             <header>
-                <nav>
+                <nav className='NavBar'>
                     <div class="logo">
                         QR
                     </div>

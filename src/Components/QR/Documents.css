@@ -19,6 +19,8 @@
     flex-direction: row;
     width: 50vw;
     padding-left: 10vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .document p{
@@ -29,10 +31,36 @@
     height: 100%;
 }
 
+.document button{
+    font-weight: 400;
+    background-color: #711628;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
 #dd1,#dd3{
     border-right: 1px solid white;
 }
 
 #dd1,#dd2{
     border-bottom: 1px solid white;
+}
+
+@media (max-width:450px) {
+    .rowDocument{
+        flex-direction: column;
+    }
+    #dd1,#dd3{
+        border-right: none;
+    }
+    .document{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .document p{
+        padding-left: 5px;
+    }
 }

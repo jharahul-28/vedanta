@@ -38,3 +38,22 @@ form button{
     padding: 10px;
     margin-left: 10px;
 }
+
+@media (max-width: 450px) {
+    .inputForm{
+        padding: 2rem 3rem;
+        margin-top: 1rem;
+        background-color: #711628;
+        width: 100%;
+    }
+    form button{
+        font-size: medium;
+        font-weight: 400;
+        background-color: #711628;
+        color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 5px;
+        margin-left: 10px;
+    }
+}

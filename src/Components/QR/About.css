@@ -1,4 +1,4 @@
-.about{
+.about {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -24,25 +24,21 @@
     box-shadow: 25px 25px 53px #a7a7a7, -25px -25px 53px #ffffff;
     width: 50%;
     font-size: larger;
+    padding: 2rem;
 }
 
 .individualDesc {
-    padding: 0 4rem;
+    padding: 0.75rem 4rem;
     display: flex;
     flex-direction: row;
 }
 
-.driverDesc .individualDesc:nth-child(1) {
-    margin-top: 1rem;
-}
-
-.individualDesc p{
+.individualDesc p {
     padding-left: 1rem;
     margin-left: 1rem;
     padding-right: 1rem;
     border-radius: 5px;
     background-color: white;
-
 }
 
 #iDesc2 {
@@ -54,4 +50,26 @@
 #iDesc2 div {
     display: flex;
     flex-direction: row;
+}
+
+@media (max-width:450px) {
+    .about {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+    .driverDesc{
+        width: fit-content;
+        margin-top: 30px;
+        border-radius: 20px;
+        flex-direction: column;
+    }
+    .individualDesc p {
+        border-radius: 2px;
+    }
 }

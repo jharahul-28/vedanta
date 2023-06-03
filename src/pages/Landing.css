@@ -19,7 +19,7 @@ nav{
     border: 1px solid black;
 }
 
-nav::before{
+.NavBar::before{
   content: "";
   position: absolute;
   bottom: 0;
