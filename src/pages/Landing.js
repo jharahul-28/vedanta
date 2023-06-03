@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import './Landing.css';
 import i1 from '../image/Coach-Bus-mockup-04 - Copy.png';
-// import i2 from '../image/istockphoto-1294611530-170667a-removebg-preview.png';
 import i3 from '../image/vehicle-QR-code-stickers.jpg';
 import i4 from '../image/png-transparent-driver-s-license-computer-icons-driving-driving-text-rectangle-car-removebg-preview.png'
 import i5 from '../image/1ba0d66413b77df2cf0b48a5fa1c7e3d-removebg-preview.png';
@@ -50,9 +49,9 @@ const Landing = () => {
                             <li>
                                 <Link to="/">Home</Link>
                             </li>
-                            <li>About</li>
-                            <li>Services</li>
-                            <li>Contact</li>
+                            <li className='dis'>About</li>
+                            <li className='dis'>Services</li>
+                            <li className='dis'>Contact</li>
                             <li>Login</li>
                             <li style={s1}>
                                 <Link to="/Qr">Scan Qr</Link>
